@@ -1,0 +1,10 @@
+hola mundo * 1 = NaN
+hola mundo * 2 = NaN
+hola mundo * 3 = NaN
+hola mundo * 4 = NaN
+hola mundo * 5 = NaN
+hola mundo * 6 = NaN
+hola mundo * 7 = NaN
+hola mundo * 8 = NaN
+hola mundo * 9 = NaN
+hola mundo * 10 = NaN
