@@ -4,9 +4,9 @@ Tabla de multiplicar que utiliza Nodejs y Yargs para enviar parámetros por cons
 
 ```
 
-**Ejecutar**: npm install
-**Ejecutar**: npm install yargs
-**Ejecutar**: npm install colors
+Ejecutar: npm install
+Ejecutar: npm install yargs
+Ejecutar: npm install colors
 ```
 
 ## Ejecución con Nodejs
