@@ -3,8 +3,8 @@ const colors = require("colors");
 
 const ListarTabla = (base, limite) => {
   return new Promise((resolve, reject) => {
-    if (!Number(base)) {
-      return reject(`El valor ingresado ${base} no es un número`);
+    if (!Number(base) && limite > 0) {
+      return reject(`El valor ingresado ${base} no es un número, o no se especificó un límite superior a 0`);
     }
     let data = "";
 
@@ -21,8 +21,8 @@ const ListarTabla = (base, limite) => {
 
 const crearArchivo = (base, limite) => {
   return new Promise((resolve, reject) => {
-    if (!Number(base)) {
-      return reject(`El valor ingresado ${base} no es un número`);
+   if (!Number(base) && limite > 0) {
+      return reject(`El valor ingresado ${base} no es un número, o no se especificó un límite superior a 0`);
     }
     let data = "";
 
